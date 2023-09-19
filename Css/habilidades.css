@@ -1,32 +1,53 @@
 .card{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    width: 75%;
     padding: .5rem;
-}
-.display-4{
-    font-size: 2.5rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-    color: rgb(20, 20, 20);
-}
-.card-body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    box-shadow: inset 0 0 7px #000000;
 }
-.card-title{
+
+.display-habilidades{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: #fafafa;
+}
+.card-body{
     display: flex;
-    text-align: center;
-    flex-direction: row;
-    color: blueviolet;
-    font-weight: 700;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .iconos{
     display: flex;
     width: 3rem;
     height: 3rem;
     padding: .5rem;
+}
+.container-icon{
+    background-color: rgb(70, 71, 71);
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .3em;
+}
+.container-icon:hover{
+    background-color: rgb(70, 71, 71);
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .3em;
+    cursor: pointer;
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+
+.icon-text{
+    color: #fafafa;
 }

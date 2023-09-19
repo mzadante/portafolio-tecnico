@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="/css/tarjeta-presentacion.css">
   <link rel="stylesheet" href="/css/sobre-mi.css">
   <link rel="stylesheet" href="/css/habilidades.css">
+  <link rel="stylesheet" href="/Css/educacion.css">
 </head>
 <body>
     <header>
@@ -65,7 +66,7 @@
     <section id="sobre-mi" class="py-3">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 d-flex justify-content-center">
                     <!-- Imagen o avatar de "Sobre Mí" -->
                     <img src="/assets/perfil2c.jpg" class="tarjeta2-img-fluid" alt="Mi foto">
                 </div>
@@ -83,80 +84,101 @@
             </div>
         </div>
     </section>
-    <section id="habilidades" class="py-5 bg-light">
+    <section id="habilidades" class="py-1 bg-dark">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="display-4">Habilidades</h2>
+                    <h2 class="display-habilidades ">Habilidades</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 mb-4">
-                    <h5 class="card-title">Desarrollo Web</h5>
+                <div class="col-md-4 mb-3 d-flex justify-content-center">
+                    
                     <div class="card">
-                        
+                        <h5 class="card-title">Desarrollo Web</h5>
                         <div class="card-body text-center">
                             <!-- <i class="bi bi-code h1 mb-3"></i> -->
-                            <img class="iconos" src="/assets/html5.svg" alt="HTML5">
-                            <p class="icon-text">HTML5</p>
-                            <img class="iconos" src="/assets/css3.svg" alt="CSS3">
-                            <p class="icon-text">CSS3</p>
-                            <img class="iconos" src="/assets/javaScript.svg" alt="JavaScript">
-                            <p class="icon-text">JavaScript</p>
-                           
-                        </div>
-                        <div class="card-body text-center">
-                            <img class="iconos" src="/assets/bootstrap-blue.svg" alt="JavaScript">
-                            <p class="icon-text">Bootstrap</p>
-                            
-                            <img class="iconos" src="/assets/node-claro.svg" alt="JavaScript">
-                            <p class="icon-text">Node</p>
-                            
 
+                            <div class="container-icon">
+                                <img class="iconos" src="/assets/html5.svg" alt="HTML5">
+                                <p class="icon-text">HTML5</p>
+                            </div>
+                            <div class="container-icon">
+                                <img class="iconos" src="/assets/css3.svg" alt="CSS3">
+                                <p class="icon-text">CSS3</p>
+                            </div>
+                            <div class="container-icon">
+                                <img class="iconos" src="/assets/javaScript.svg" alt="JavaScript">
+                                <p class="icon-text">JavaScript</p>
+                            </div>
+                            <div class="container-icon">
+                                <img class="iconos" src="/assets/bootstrap-blue.svg" alt="JavaScript">
+                                <p class="icon-text">Bootstrap</p>
+                            </div>
+                            <div class="container-icon">
+                                <img class="iconos" src="/assets/node-claro.svg" alt="JavaScript">
+                                <p class="icon-text">Node</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <h5 class="card-title">Base de Datos y Lenguajes</h5>
+                <div class="col-md-4 mb-3 d-flex justify-content-center">
                     <div class="card">
-                        
+                        <h5 class="card-title">Base de Datos y Lenguajes</h5>
                         <div class="card-body text-center">
                             <!-- <i class="bi bi-code h1 mb-3"></i> -->
-                            <img class="iconos" src="/assets/mysql-claro.svg" alt="HTML5">
-                            <p class="icon-text">MySQL</p>
-                            <img class="iconos" src="/assets/mongo-azul.svg" alt="CSS3">
-                            <p class="icon-text">MongoDB</p>
-                            <img class="iconos" src="/assets/postgress-original.svg" alt="JavaScript">
-                            <p class="icon-text">Postgress</p>
-                           
-                        </div>
-                        <div class="card-body text-center">
-                            <img class="iconos" src="/assets/java.svg" alt="JavaScript">
-                            <p class="icon-text">Java</p>
-                            <img class="iconos" src="/assets/python.svg" alt="JavaScript">
+                            <div class="container-icon">
+                                <img class="iconos" src="/assets/java.svg" alt="JavaScript">
+                                <p class="icon-text">Java</p>
+                            </div>
+                            <div class="container-icon">
+                                <img class="iconos" src="/assets/python.svg" alt="JavaScript">
                             <p class="icon-text">Python</p>
-                            <img class="iconos" src="/assets/sqlite-red.svg" alt="JavaScript">
-                            <p class="icon-text">SQL lite</p>
+                            </div>
+                            <div class="container-icon">
+                                <img class="iconos" src="/assets/mysql-claro.svg" alt="HTML5">
+                                <p class="icon-text">MySQL</p>
+                            </div>
+                            <div class="container-icon">
+                                <img class="iconos" src="/assets/mongo-azul.svg" alt="CSS3">
+                                <p class="icon-text">MongoDB</p>
+                            </div>
+                            <div class="container-icon">
+                                <img class="iconos" src="/assets/postgress-original.svg" alt="JavaScript">
+                                <p class="icon-text">Postgress</p>
+                            </div>
+                            <!-- <div class="container-icon">
+                                <img class="iconos" src="/assets/sqlite-red.svg" alt="JavaScript">
+                                <p class="icon-text">SQL lite</p>
+                            </div> -->
                         </div>
-                    </div>
+                        </div>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <h5 class="card-title">Herramientas</h5>
+                <div class="col-md-4 mb-3 d-flex justify-content-center">
                     <div class="card">
+                        <h5 class="card-title">Herramientas</h5>
                         <div class="card-body text-center">
                             <!-- <i class="bi bi-code h1 mb-3"></i> -->
-                            <img class="iconos" src="/assets/github-claro.svg" alt="JavaScript">
-                            <p class="icon-text">Git-Hub</p>
-                            <img class="iconos" src="/assets/react-blue.svg" alt="CSS3">
-                            <p class="icon-text">React</p>
-                            <img class="iconos" src="/assets/machine-learning.svg" alt="JavaScript">
-                            <p class="icon-text">Machine-learning</p>
-                        </div>
-                        <div class="card-body text-center">
-                            <img class="iconos" src="/assets/nexxtjs.svg" alt="JavaScript">
-                            <p class="icon-text">Nextjs</p>
-                            <img class="iconos" src="/assets/corel.png" alt="JavaScript">
-                            <p class="icon-text">Corel Draw</p>
+                            <div class="container-icon">
+                                <img class="iconos" src="/assets/github-claro.svg" alt="JavaScript">
+                                <p class="icon-text">Git-Hub</p>
+                            </div>
+                            <div class="container-icon">
+                                <img class="iconos" src="/assets/react-blue.svg" alt="CSS3">
+                                <p class="icon-text">React</p>
+                            </div>
+                            <div class="container-icon">
+                                <img class="iconos" src="/assets/machine-learning.svg" alt="JavaScript">
+                                <p class="icon-text">Machine-learning</p>
+                            </div>
+                            <div class="container-icon">
+                                <img class="iconos" src="/assets/nexxtjs.svg" alt="JavaScript">
+                                <p class="icon-text">Nextjs</p>
+                            </div>
+                            <div class="container-icon">
+                                <img class="iconos" src="/assets/corel.png" alt="JavaScript">
+                                <p class="icon-text">Corel Draw</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -165,30 +187,40 @@
         </div>
     </section>
     <section id="educacion" class="py-5">
-        <div class="container">
+        <div class="container ">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="display-4">Educación</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 d-flex justify-content-center">
                     <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Título Universitario</h5>
-                            <p class="card-text">Licenciatura en Informática</p>
-                            <p class="card-text">Universidad XYZ</p>
-                            <p class="card-text"><small class="text-muted">Enero 20XX - Diciembre 20XX</small></p>
+                        <div class="card-body-educacion">
+                            <div class="card-imagen-educacion">
+                                <img class="rounded-circle" src="./assets/images.jfif" alt="logo utn">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title-educacion">Título Universitario</h5>
+                                <p class="card-text-educacion">Técnico en Programación</p>
+                                <p class="card-text-educacion">Universidad Tecnologica Nacional</p>
+                                <p class="card-text"><small class="text-muted">Febrero 2021 - Diciembre 2023</small></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 d-flex justify-content-center">
                     <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Certificación</h5>
-                            <p class="card-text">Desarrollo Web Avanzado</p>
-                            <p class="card-text">Instituto de Tecnología ABC</p>
-                            <p class="card-text"><small class="text-muted">Julio 20XX - Septiembre 20XX</small></p>
+                        <div class="card-body-educacion">
+                            <div class="card-imagen-educacion">
+                                <img class="rounded-circle" src="./assets/logo_uncu23.png"  alt="logo utn">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title-educacion">Título Universitario</h5>
+                                <p class="card-text-educacion">Técnico en Seguridad e Higiene</p>
+                                <p class="card-text-educacion">Universidad Nacional de Cuyo</p>
+                                <p class="card-text"><small class="text-muted">Febrero 2021 - Diciembre 2023</small></p>
+                            </div>
                         </div>
                     </div>
                 </div>

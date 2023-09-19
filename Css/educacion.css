@@ -1,0 +1,13 @@
+.card-body-educacion{
+    display: flex;
+    padding: 1rem;
+}
+.card-title-educacion{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.card-text-educacion{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}

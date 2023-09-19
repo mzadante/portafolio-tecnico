@@ -2,9 +2,22 @@
    font-weight: 500;
    line-height: 1.8rem;
    padding: 1rem;
+   margin-bottom: 1.5rem;
+   border-color: #fafafa 5px solid;
+}
+.display-4{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
 }
 .text-sobre-mi{
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.8rem;
+}
+.titulo-sobre-mi{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #fafafa;
 }
