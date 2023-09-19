@@ -1,0 +1,13 @@
+.collapse{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-check{
+    width: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar-brand{
+    font-size: 1rem;
+    font-weight: 500;
+}

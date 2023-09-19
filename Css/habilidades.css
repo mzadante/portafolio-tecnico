@@ -1,0 +1,32 @@
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: .5rem;
+}
+.display-4{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: rgb(20, 20, 20);
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card-title{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    color: blueviolet;
+    font-weight: 700;
+}
+.iconos{
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    padding: .5rem;
+}

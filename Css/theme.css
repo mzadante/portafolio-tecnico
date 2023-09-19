@@ -1,0 +1,25 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+/* Estilos de tu página */
+/* Estilo por defecto para el tema oscuro */
+[data-bs-theme="dark"] {
+  background-color: #343a40;
+  color: #fff;
+}
+   
+/* Estilo para el tema claro */
+[data-bs-theme="light"] {
+  background-color: #6d6b6b;
+  color: #000;
+}
+ 
+/* Estilos adicionales para la barra de navegación, etc. */
+
+.navbar {
+  /* background-color: #878788; */
+}
+  
+/* #theme-toggle {
+  margin-left: 15px;
+} */
