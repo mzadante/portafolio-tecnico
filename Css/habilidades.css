@@ -45,8 +45,11 @@
     cursor: pointer;
     transition: .3s;
     transform: scale(1.1);
+    box-shadow: rgb(233, 111, 217) 0 0 5px;
 }
-
+a{
+    text-decoration: none;
+}
 
 .icon-text{
     color: #fafafa;

@@ -1,3 +1,14 @@
+.container-cursos{
+    display: flex;
+    
+    align-items: center;
+    padding: 1rem;
+}
+#fila-cursos{
+    text-align: left;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    padding: .5rem;
+}
 .card-body-educacion{
     display: flex;
     padding: 1rem;
@@ -9,5 +20,29 @@
 .card-text-educacion{
     font-weight: 400;
     font-size: 1.2rem;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
+}
+
+
+.card-body-cursos{
+    display: flex;
+    flex-direction: row;
+}
+.cursos-imagen{
+    padding: .2rem;
+    width: 6rem;
+    height: auto;
+    margin-right: 1.5rem;
+}
+.card-title-cursos{
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+}
+.card-text-cursos{
+    margin-left: 3rem;
+}
+.card-body-cursos{
+    display: flex;
+    font-size: 1rem;
 }
