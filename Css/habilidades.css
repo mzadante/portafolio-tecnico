@@ -1,5 +1,5 @@
 .card{
-    width: 75%;
+    width: 100%;
     padding: .5rem;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,8 @@
 .card-body{
     display: flex;
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-around;
 }
 .iconos{
@@ -26,13 +27,13 @@
     padding: .5rem;
 }
 .container-icon{
+    width: 100%;
     background-color: rgb(70, 71, 71);
     border-radius: 5px;
-    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-bottom: .3em;
+    gap: .5em;
 }
 .container-icon:hover{
     background-color: rgb(70, 71, 71);
