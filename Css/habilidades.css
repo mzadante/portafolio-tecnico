@@ -1,57 +1,27 @@
-.card{
+.contenedor-skill{
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #240202;
+    background-color: #6b6868;
+}
+.tarjetas-skill{
+    width: 7rem;
+    height: 5rem;
     padding: .5rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    box-shadow: inset 0 0 7px #000000;
-}
-
-.display-habilidades{
-    font-size: 2.5rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-    color: #fafafa;
-}
-.card-body{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-}
-.iconos{
-    display: flex;
-    width: 3rem;
-    height: 3rem;
-    padding: .5rem;
-}
-.container-icon{
-    width: 100%;
-    background-color: rgb(70, 71, 71);
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    margin-bottom: .3em;
-    gap: .5em;
-}
-.container-icon:hover{
-    background-color: rgb(70, 71, 71);
-    border-radius: 5px;
-    width: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: .3em;
-    cursor: pointer;
-    transition: .3s;
-    transform: scale(1.1);
-    box-shadow: rgb(233, 111, 217) 0 0 5px;
+    gap: .5rem;
+    
 }
-a{
-    text-decoration: none;
-}
-
-.icon-text{
-    color: #fafafa;
+.foto-skill{
+    width: 32px;
+    height: 32px;
 }

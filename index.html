@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="/css/sobre-mi.css">
   <link rel="stylesheet" href="/css/habilidades.css">
   <link rel="stylesheet" href="/Css/educacion.css">
+  <link rel="stylesheet" href="/Css/proyectos.css">
 </head>
 <body>
     <header>
@@ -32,13 +33,13 @@
                         <a class="nav-link" href="#sobre-mi">Sobre Mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Educacion</a>
+                        <a class="nav-link" href="#educacion">Educacion</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Habilidades</a>
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Proyectos</a>
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Curriculum</a>
@@ -85,9 +86,9 @@
         </div>
     </section>
     
-    <section class="educacion">
+    <section id="educacion">
         <div class="container">
-            <h2 class="display-4">Educación</h2>
+          <h2 class="display-4">Educación</h2>
             <div class="row contain">
                 <div class="col-lg-5 edu">
                     <img src="/assets/utn.png" class="educacion-img-fluid" alt="Logo de la UTN">
@@ -97,6 +98,7 @@
                         Universidad Tecnológica Nacional
                         <br>
                         2019 - 2021
+                        <a href="">link</a>
                     </p>
                 </div>
                 <div class="col-lg-5 edu">
@@ -107,6 +109,7 @@
                         Universidad Tecnológica Nacional
                         <br>
                         2019 - 2021
+                        <a href="">link</a>
                     </p>
                 </div>
                 
@@ -120,6 +123,7 @@
                         <th scope="col">Duración</th>
                         <th scope="col">Lugar</th>
                         <th scope="col">Estado</th>
+                        <th scope="col">Certificado</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -128,14 +132,16 @@
                         <td>Ingles Nivel: 1, 2 y 3</td>
                         <td>6 meses</td>
                         <td>Mendoza-educa/Fundación Santisima Trinidad</td>
-                        <td>Cursando</td>
+                        <td>Terminado</td>
+                        <td><a href="">link</a></td>
                       </tr>
                       <tr>
                         <th scope="row">2023</th>
                         <td>Ar. Programa 4.0 Machine-learning</td>
                         <td>6 meses</td>
                         <td>Universidad de salta</td>
-                        <td>Cursando</td>
+                        <td>Terminado</td>
+                        <td><a href="">link</a></td>
                       </tr>
                       <tr>
                         <th scope="row">2023</th>
@@ -143,160 +149,156 @@
                         <td>6 meses</td>
                         <td>Remoto por plataforma</td>
                         <td>Terminado</td>
+                        <td><a href="">link</a></td>
                       </tr>
                     </tbody>
                   </table>
-        </div> 
-            
+            </div> 
         </div>
     </section>
-    <section class="educacion">
+    <section id="habilidades">
         <div class="container">
             <h2 class="display-4">Habilidades</h2>
-            <div class="row">
-                <table class="table table-striped ">
-                    <thead>
-                      <tr>
-                        <th scope="col">🟢</th>
-                        <th scope="col"></th>
-                        <th scope="col">Lenguaje</th>
-                        <th scope="col">Nivel Exp.</th>
-                        <th scope="col">Ultimo trabajo</th>
-                        <th scope="col">Descripción del Proyecto</th>
-                        <td><a href="">Ver</a></td>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row"><img src="/assets/javaScript.svg" alt=""></th>
-                        <th>Web</th>
-                        <td>JavaScript</td>
-                        <td>Junior</td>
-                        <td>Pasantias Global Solutions</td>
-                        <td>App web de Gestor de contenido Interno para RR-HH</td>
-                        <td><a href="https://app-interareas-2023.web.app/">..ir</a></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="/assets/html5.svg" alt=""></th>
-                        <th>Web</th>
-                        <td>Html5</td>
-                        <td>Junior</td>
-                        <td>Pasantias Global Solutions</td>
-                        <td>App web de Gestor de contenido Interno para RR-HH</td>
-                        <td><a href="https://app-interareas-2023.web.app/">..ir</a></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="/assets/css3.svg" alt=""></th>
-                        <th>Web</th>
-                        <td>CSS3</td>
-                        <td>Junior</td>
-                        <td>Pasantias Global Solutions</td>
-                        <td>App web de Gestor de contenido Interno para RR-HH</td>
-                        <td><a href="https://app-interareas-2023.web.app/">..ir</a></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><img src="/assets/bootstrap-blue.svg" alt=""></th>
-                        <th>Web</th>
-                        <td>Bootstrap</td>
-                        <td>Junior</td>
-                        <td>Pasantias Global Solutions</td>
-                        <td>App web de Gestor de contenido Interno para RR-HH</td>
-                        <td><a href="https://app-interareas-2023.web.app/">..ir</a></td>
-                      <tr>
-                        <th scope="row"><img src="/assets/node-claro.svg" alt=""></th>
-                        <th>Backen|d</th>
-                        <td>NodeJs - Express</td>
-                        <td>Junior</td>
-                        <td>Pasantias Global Solutions</td>
-                        <td>App web de Gestor de contenido Interno para RR-HH</td>
-                        <td><a href="https://app-interareas-2023.web.app/">..ir</a></td>  
-                      <tr>
-                        <th scope="row"><img src="/assets/java.svg" alt=""></th>
-                        <th>Backend</th>
-                        <td>Java</td>
-                        <td>Junior</td>
-                        <td>alguno</td>
-                        <td>alguno</td>
-                        <td><a href="">..ir</a></td>
-                     <tr>
-                        <th scope="row"><img src="/assets/python.svg" alt=""></th>
-                        <th>Backend</th>
-                        <td>Python</td>
-                        <td>Junior</td>
-                        <td>alguno</td>
-                        <td>alguno</td>
-                        <td><a href="">..ir</a></td>
-                     <tr>
-                        <th scope="row"><img src="/assets/react-blue.svg" alt=""></th>
-                        <th>Framework</th>
-                        <td>React</td>
-                        <td>Junior</td>
-                        <td>algo</td>
-                        <td>algo</td>
-                        <td><a href="">..ir</a></td>
-                        <tr>
-                        <th scope="row"><img src="/assets/mysql-claro.svg" alt=""></th>
-                        <th>Base de Datos</th>
-                        <td>MySQL</td>
-                        <td>Junior</td>
-                        <td>algo</td>
-                        <td>algo</td>
-                        <td><a href="">..ir</a></td>
-                        <tr>
-                          <th scope="row"><img src="/assets/postgress-original.svg" alt=""></th>
-                          <th>Base de Datos</th>
-                          <td>Postgress</td>
-                          <td>Junior</td>
-                          <td>algo</td>
-                          <td>algo</td>
-                          <td><a href="">..ir</a></td>
-                          <tr>
-                            <th scope="row"><img src="/assets/mongo-claro.svg" alt=""></th>
-                            <th>Base de Datos</th>
-                            <td>Mongo db</td>
-                            <td>Junior</td>
-                            <td>algo</td>
-                            <td>algo</td>
-                            <td><a href="">..ir</a></td>
-                            <tr>
-                              <th scope="row"><img src="/assets/github-claro.svg" alt=""></th>
-                              <th>Tools</th>
-                              <td>GitHub</td>
-                              <td>Junior</td>
-                              <td>algo</td>
-                              <td>algo</td>
-                              <td><a href="">..ir</a></td>
-                    </tbody>
-                  </table>
-        </div> 
-            
+              <div class="contenedor-skill">
+                <div class="row">
+                  <div class="tarjetas-skill">
+                    <img class="foto-skill" src="/assets/javaScript.svg" alt="">
+                    <p class="skill">JavaScript</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="tarjetas-skill">
+                    <img src="/assets/html5.svg" width="32px" alt="">
+                    <p class="skill">Html5</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="tarjetas-skill">
+                    <img class="foto-skill" src="/assets/css3.svg" alt="">
+                    <p class="skill">Css3</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="tarjetas-skill">
+                    <img class="foto-skill" src="/assets/bootstrap-blue.svg" alt="">
+                    <p class="skill">Bootstrap</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="tarjetas-skill">
+                    <img class="foto-skill" src="/assets/java.svg" alt="">
+                    <p class="skill">Java</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="tarjetas-skill">
+                    <img class="foto-skill" src="/assets/python.svg" alt="">
+                    <p class="skill">Python</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="tarjetas-skill">
+                    <img class="foto-skill" src="/assets/node-claro.svg" alt="">
+                    <p class="skill">Node</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="tarjetas-skill">
+                    <img class="foto-skill" src="/assets/mysql-claro.svg" alt="">
+                    <p class="skill">Mysql</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="tarjetas-skill">
+                    <img class="foto-skill" src="/assets/mongo-azul.svg" alt="">
+                    <p class="skill">Mongo DB</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="tarjetas-skill">
+                    <img class="foto-skill" src="/assets/postgress-original.svg" alt="">
+                    <p class="skill">Postgress</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="tarjetas-skill">
+                    <img class="foto-skill" src="/assets/react-blue.svg" alt="">
+                    <p class="skill">React</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="tarjetas-skill">
+                    <img class="foto-skill" src="/assets/github-claro.svg" alt="">
+                    <p class="skill">Github</p>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
+    </section>
+
+   <section id="proyectos">
+    <div class="container">
+      <h2 class="display-4">Proyectos</h2>
+      <div class="row">
+        <table class="table table-dark table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Año</th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Lenguajes Utilizados</th>
+                <th scope="col">Nivel Exp.</th>
+                <th scope="col">Ultimos trabajos</th>
+                <th scope="col">Descripción del Proyecto</th>
+                <td>Ver</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>11/2023</td>
+                <th>Web</th>
+                <td><img class="proyecto-imagenes" src="/assets/javaScript.svg" alt="">
+                  <img class="proyecto-imagenes"  src="/assets/html5.svg" alt="">
+                  <img class="proyecto-imagenes" src="/assets/css3.svg" alt="">
+                  <img class="proyecto-imagenes" src="/assets/bootstrap-blue.svg" alt=""></td>
+                <td>Junior/intermedio</td>
+                <td>Pasantias Global Solutions</td>
+                <td>App web de Gestor de contenido Interno Web para RR-HH</td>
+                <td><a href="https://app-interareas-2023.web.app/" target="_blank">..ir</a></td>
+              </tr>
+              <tr>
+                <td>11/2023</td>
+                <th>Web</th>
+                <td><img class="proyecto-imagenes" src="/assets/javaScript.svg" alt="">
+                  <img class="proyecto-imagenes"  src="/assets/html5.svg" alt="">
+                  <img class="proyecto-imagenes" src="/assets/css3.svg" alt="">
+                  <img class="proyecto-imagenes" src="/assets/bootstrap-blue.svg" alt=""></td>
+                <td>Junior/intermedio</td>
+                <td>App-Storage - Herramienta que integre a pasantias Global</td>
+                <td>App web para guardar imagenes en Firebase Storage devuelve link htyml y permite gestionar imagenes - delete</td>
+                <td><a href="https://app-interareas-2023.web.app/" target="_blank">..ir</a></td>
+              </tr>
+              <tr>
+                <td>9/2023</td>
+                <th>Web</th>
+                <td><img class="proyecto-imagenes" src="/assets/javaScript.svg" alt="">
+                  <img class="proyecto-imagenes"  src="/assets/html5.svg" alt="">
+                  <img class="proyecto-imagenes" src="/assets/css3.svg" alt="">
+                  <img class="proyecto-imagenes" src="/assets/bootstrap-blue.svg" alt=""></td>
+                <td>Junior/intermedio</td>
+                <td>App Estacionamiento controlado</td>
+                <td>App web de Estacionamiento Controlado para la Municipalidad de San Rafael</td>
+                <td><a href="https://app-estacionamiento-controlado.web.app/" target="_blank">..ir</a></td>
+            </tbody>
+          </table>
+      </div>
+    </div>
+</div> 
     </section>
         <div class="alert alert-primary" role="alert">
             A simple primary alert—check it out!
           </div>
-          <div class="alert alert-secondary" role="alert">
-            A simple secondary alert—check it out!
-          </div>
-          <div class="alert alert-success" role="alert">
-            A simple success alert—check it out!
-          </div>
-          <div class="alert alert-danger" role="alert">
-            A simple danger alert—check it out!
-          </div>
-          <div class="alert alert-warning" role="alert">
-            A simple warning alert—check it out!
-          </div>
-          <div class="alert alert-info" role="alert">
-            A simple info alert—check it out!
-          </div>
-          <div class="alert alert-light" role="alert">
-            A simple light alert—check it out!
-          </div>
-          <div class="alert alert-dark" role="alert">
-            A simple dark alert—check it out!
-          </div>
-    </section>
+        
             
 
      
