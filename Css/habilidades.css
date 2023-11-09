@@ -22,6 +22,10 @@
     
 }
 .foto-skill{
-    width: 32px;
-    height: 32px;
+    width: 64px;
+    height: 64px;
+    background-color: #240202;
+    padding: .5rem;
+    box-shadow: 0 0 10px #aaa9a9;
+    border-radius: 3px;
 }
